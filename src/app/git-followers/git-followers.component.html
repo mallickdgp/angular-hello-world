@@ -1,0 +1,7 @@
+<div class="media" *ngFor="let follower of followers">
+    <img [src]="follower.avatar_url" class="mr-3 circular" alt="Generic placeholder image">
+    <div class="media-body">
+        <h5 class="mt-0">{{ follower.login }}</h5>
+        <a [href]="follower.html">{{ follower.html_url}}</a>
+    </div>
+</div>

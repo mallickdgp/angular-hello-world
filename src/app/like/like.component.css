@@ -1,0 +1,9 @@
+.material-icon-fill{
+    color: #ccc;
+    cursor: pointer;
+}
+
+.material-icon-fill-liked{
+    color: deeppink;
+    cursor: pointer;
+}
